@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Regression Testing Suite,,,,2020-05-31 10:12:01,2020-05-31 10:12:26,25.208s,FAILED
-,,,,,,,
-Test Cases/Valid Login Test Case,,,,2020-05-31 10:12:02,2020-05-31 10:12:26,24.620s,FAILED
-"openBrowser("""")",,,,2020-05-31 10:12:02,2020-05-31 10:12:26,23.925s,FAILED
