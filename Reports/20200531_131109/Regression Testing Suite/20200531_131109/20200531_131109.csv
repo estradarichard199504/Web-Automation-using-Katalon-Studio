@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Testing Suite,Chrome 83.0.4103.61,,,2020-05-31 13:11:12,2020-05-31 13:12:00,47.822s,PASSED
+,,,,,,,
+Test Cases/Open Browser,Chrome 83.0.4103.61,,,2020-05-31 13:11:13,2020-05-31 13:11:26,13.237s,PASSED
+"openBrowser("""")",Chrome 83.0.4103.61,,,2020-05-31 13:11:13,2020-05-31 13:11:19,5.292s,PASSED
+maximizeWindow(),Chrome 83.0.4103.61,,,2020-05-31 13:11:19,2020-05-31 13:11:20,1.207s,PASSED
+"navigateToUrl(""http://localhost/ecommerce/"")",Chrome 83.0.4103.61,,,2020-05-31 13:11:20,2020-05-31 13:11:26,6.088s,PASSED
+,,,,,,,
+Test Cases/Check Page URLs Test Case,Chrome 83.0.4103.61,,,2020-05-31 13:11:26,2020-05-31 13:11:37,11.084s,PASSED
+"click(findTestObject(""Object Repository/Page URLs/a_Home""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:26,2020-05-31 13:11:28,1.778s,PASSED
+"click(findTestObject(""Object Repository/Page URLs/a_Products""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:28,2020-05-31 13:11:30,1.837s,PASSED
+"click(findTestObject(""Object Repository/Page URLs/a_About""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:30,2020-05-31 13:11:32,1.628s,PASSED
+"click(findTestObject(""Object Repository/Page URLs/a_Blog""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:32,2020-05-31 13:11:34,2.000s,PASSED
+"click(findTestObject(""Object Repository/Page URLs/a_Contact""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:34,2020-05-31 13:11:35,1.605s,PASSED
+"scrollToElement(findTestObject(""Page URLs/a_Privacy Policy""), 0)",Chrome 83.0.4103.61,,,2020-05-31 13:11:35,2020-05-31 13:11:36,0.370s,PASSED
+"click(findTestObject(""Object Repository/Page URLs/a_Privacy Policy""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:36,2020-05-31 13:11:37,1.329s,PASSED
+,,,,,,,
+Test Cases/Valid Login Test Case,Chrome 83.0.4103.61,,,2020-05-31 13:11:37,2020-05-31 13:11:51,13.862s,PASSED
+"click(findTestObject(""Valid Login Elements/my_account_link""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:37,2020-05-31 13:11:39,1.353s,PASSED
+"click(findTestObject(""Valid Login Elements/button_Log in""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:39,2020-05-31 13:11:40,1.525s,PASSED
+"setText(findTestObject(""Valid Login Elements/input__username""), ""admin"")",Chrome 83.0.4103.61,,,2020-05-31 13:11:40,2020-05-31 13:11:41,0.702s,PASSED
+"setEncryptedText(findTestObject(""Valid Login Elements/input__password""), ""tzH6RvlfSTg="")",Chrome 83.0.4103.61,,,2020-05-31 13:11:41,2020-05-31 13:11:41,0.497s,PASSED
+"click(findTestObject(""Valid Login Elements/span__show-password-input""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:41,2020-05-31 13:11:42,0.391s,PASSED
+"scrollToElement(findTestObject(""Valid Login Elements/input__rememberme""), 5)",Chrome 83.0.4103.61,,,2020-05-31 13:11:42,2020-05-31 13:11:42,0.323s,PASSED
+"click(findTestObject(""Valid Login Elements/input__rememberme""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:42,2020-05-31 13:11:43,0.393s,PASSED
+"click(findTestObject(""Valid Login Elements/button_Log in""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:43,2020-05-31 13:11:47,4.050s,PASSED
+"click(findTestObject(""Valid Login Elements/a_Log out""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:47,2020-05-31 13:11:51,4.309s,PASSED
+,,,,,,,
+Test Cases/Invalid Login Test Case,Chrome 83.0.4103.61,,,2020-05-31 13:11:51,2020-05-31 13:12:00,9.136s,PASSED
+"click(findTestObject(""Object Repository/Invalid Login Elements/i_Contact_far fa-user""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:51,2020-05-31 13:11:53,1.635s,PASSED
+"click(findTestObject(""Object Repository/Invalid Login Elements/button_Log in""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:53,2020-05-31 13:11:54,1.266s,PASSED
+"click(findTestObject(""Object Repository/Invalid Login Elements/strong_Error""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:54,2020-05-31 13:11:55,0.353s,PASSED
+"verifyTextPresent(""Error: Username is required"", false)",Chrome 83.0.4103.61,,,2020-05-31 13:11:55,2020-05-31 13:11:55,0.340s,PASSED
+"setText(findTestObject(""Object Repository/Invalid Login Elements/input__username""), ""test"")",Chrome 83.0.4103.61,,,2020-05-31 13:11:55,2020-05-31 13:11:56,0.648s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Invalid Login Elements/input__password""), ""P9ET2sDE0SE="")",Chrome 83.0.4103.61,,,2020-05-31 13:11:56,2020-05-31 13:11:56,0.416s,PASSED
+"click(findTestObject(""Object Repository/Invalid Login Elements/span__show-password-input""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:56,2020-05-31 13:11:56,0.347s,PASSED
+"scrollToElement(findTestObject(""Invalid Login Elements/span_Remember me""), 10)",Chrome 83.0.4103.61,,,2020-05-31 13:11:56,2020-05-31 13:11:57,0.314s,PASSED
+"click(findTestObject(""Object Repository/Invalid Login Elements/span_Remember me""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:57,2020-05-31 13:11:57,0.366s,PASSED
+"click(findTestObject(""Object Repository/Invalid Login Elements/button_Log in""))",Chrome 83.0.4103.61,,,2020-05-31 13:11:57,2020-05-31 13:11:59,2.517s,PASSED
+"verifyTextPresent(""Unknown username. Check again or try your email address."", false)",Chrome 83.0.4103.61,,,2020-05-31 13:11:59,2020-05-31 13:12:00,0.540s,PASSED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Testing Suite,Chrome 83.0.4103.61,,,2020-05-31 11:35:41,2020-05-31 11:36:07,26.173s,PASSED
+,,,,,,,
+Test Cases/Open Browser,Chrome 83.0.4103.61,,,2020-05-31 11:35:41,2020-05-31 11:35:53,11.636s,PASSED
+"openBrowser("""")",Chrome 83.0.4103.61,,,2020-05-31 11:35:42,2020-05-31 11:35:47,5.088s,PASSED
+maximizeWindow(),Chrome 83.0.4103.61,,,2020-05-31 11:35:47,2020-05-31 11:35:48,1.167s,PASSED
+"navigateToUrl(""http://localhost/ecommerce/"")",Chrome 83.0.4103.61,,,2020-05-31 11:35:48,2020-05-31 11:35:53,4.825s,PASSED
+,,,,,,,
+Test Cases/Valid Login Test Case,Chrome 83.0.4103.61,,,2020-05-31 11:35:53,2020-05-31 11:36:07,14.030s,PASSED
+"click(findTestObject(""Valid Login Elements/my_account_link""))",Chrome 83.0.4103.61,,,2020-05-31 11:35:54,2020-05-31 11:35:55,1.486s,PASSED
+"click(findTestObject(""Valid Login Elements/button_Log in""))",Chrome 83.0.4103.61,,,2020-05-31 11:35:55,2020-05-31 11:35:57,1.584s,PASSED
+"setText(findTestObject(""Valid Login Elements/input__username""), ""admin"")",Chrome 83.0.4103.61,,,2020-05-31 11:35:57,2020-05-31 11:35:57,0.669s,PASSED
+"setEncryptedText(findTestObject(""Valid Login Elements/input__password""), ""tzH6RvlfSTg="")",Chrome 83.0.4103.61,,,2020-05-31 11:35:57,2020-05-31 11:35:58,0.460s,PASSED
+"click(findTestObject(""Valid Login Elements/span__show-password-input""))",Chrome 83.0.4103.61,,,2020-05-31 11:35:58,2020-05-31 11:35:58,0.355s,PASSED
+"scrollToElement(findTestObject(""Valid Login Elements/input__rememberme""), 5)",Chrome 83.0.4103.61,,,2020-05-31 11:35:58,2020-05-31 11:35:59,0.314s,PASSED
+"click(findTestObject(""Valid Login Elements/input__rememberme""))",Chrome 83.0.4103.61,,,2020-05-31 11:35:59,2020-05-31 11:35:59,0.423s,PASSED
+"click(findTestObject(""Valid Login Elements/button_Log in""))",Chrome 83.0.4103.61,,,2020-05-31 11:35:59,2020-05-31 11:36:03,3.732s,PASSED
+"click(findTestObject(""Valid Login Elements/a_Log out""))",Chrome 83.0.4103.61,,,2020-05-31 11:36:03,2020-05-31 11:36:06,3.450s,PASSED
+closeBrowser(),Chrome 83.0.4103.61,,,2020-05-31 11:36:06,2020-05-31 11:36:07,0.828s,PASSED
