@@ -29,6 +29,6 @@ Single Product Checkout
 Single Product Paypal Checkout
 
 
-##Test Suite:
-Regression Suites
+## Test Suite:
+Regression Suite
 
