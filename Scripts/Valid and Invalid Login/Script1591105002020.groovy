@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Valid and Invalid Login Objects/span_My account'))
 
 WebUI.click(findTestObject('Valid and Invalid Login Objects/button_Log in'))

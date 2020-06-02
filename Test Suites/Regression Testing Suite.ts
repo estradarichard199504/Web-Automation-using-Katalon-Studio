@@ -22,4 +22,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Valid and Invalid Login</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8a82f616-0aeb-400c-85ab-5beaacab7f95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Cash on Delivery Multiple Product Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>72c966bd-51dc-4c40-ac4c-98142fec040e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Cash on Delivery Single Product Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>80cf275c-a1dc-4d13-b670-b41909929464</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Multiple Product Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a7b8344a-6a47-4846-bf31-06065d4d1d39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Multiple Products Paypal Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>57ea7676-a54e-4291-8dce-855fca163ba5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Paypal Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e490290-043d-452b-9180-5ad8f38f36ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Product Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9dc24e1-67a2-4297-98bc-6084237fbce6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Product Paypal Checkout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e6ad716f-3cca-4f0e-905b-c8b3d9583c21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Update Product Quantity</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37da565f-7ca1-4270-b1df-16024117873f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Valid and Invalid Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b370283-31b8-46c9-8c8a-f0c55083caa0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Valid and Invalid Registration</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
