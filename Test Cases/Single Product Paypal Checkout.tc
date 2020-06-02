@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Open Browser</name>
+   <name>Single Product Paypal Checkout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4e85ae5-2758-4a55-a8cf-601f9a8f9915</testCaseGuid>
+   <testCaseGuid>f7021715-082c-4e65-a283-ca9599ad2ba3</testCaseGuid>
 </TestCaseEntity>

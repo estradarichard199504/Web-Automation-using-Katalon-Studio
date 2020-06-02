@@ -15,113 +15,77 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/ecommerce/')
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/a_Products'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/span_Go shopping'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/a_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/a_Add to cart'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/a_View cart'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/button_1Shop sidebar'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/tr_ADILETTE COMFORT SLIDES100000ADILETTE CO_f6f973'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/a_View cart'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input_ADILETTE COMFORT SLIDES quantity_cart_32f9bc'), 
-    '5')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/td_Nike Epic React Flyknit quantity'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/button_Update cart'))
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input_Nike Epic React Flyknit quantity_cart_9a55fd'), '4')
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/div_Cart updated'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/div_Cart'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/a_Proceed to checkout'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/button_Update cart'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_first_name'), 'Robert')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/a_Proceed to checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_last_name'), 'Hall')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/a_Click here to login'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input_(optional)_billing_company'), 'Company Inc.')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__username'), 'admin')
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Philippines'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Checkout Objects/input__password'), 'IFWTPptq1GY=')
 
-WebUI.setText(findTestObject('Page_Checkout  ecommerce/input_Terms and Conditions_select2-search__field'), 'Australia')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Australia'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/a_Click here to login'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_address_1'), '3124 Hickory Hieght')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__username'), 'admin')
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_city'), 'Bali')
+WebUI.setEncryptedText(findTestObject('Object Repository/Checkout Objects/input__password'), 'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Select an option'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/button_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input_Terms and Conditions_select2-search__field'), 
-    'Queensland')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/input__billing_first_name'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Queensland'))
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__billing_first_name'), 'Marie')
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_postcode'), '21202')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__billing_last_name'), 'Doe')
 
-WebUI.switchToWindowTitle('Checkout – ecommerce')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input_(optional)_billing_company'), 'Company Inc.')
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_postcode'), '21202')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__billing_address_1'), '12332 Sto. Domingo Street')
 
-WebUI.switchToWindowTitle('Checkout – ecommerce')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__billing_city'), 'Texas')
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_phone'), '997-564-4556')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/span_Misamis Oriental'))
 
-WebUI.switchToWindowTitle('Checkout – ecommerce')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input_Checkout_select2-search__field'), 'Mountain Province')
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_phone'), '997-564-4556')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__billing_postcode'), '9000')
 
-WebUI.switchToWindowTitle('Checkout – ecommerce')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/input__billing_phone'), '+6395452145475')
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_phone'), '997-564-4556')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/li_Cash on delivery Pay with cash upon delivery'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__billing_email'), 'robert213@hotmail.com')
+WebUI.setText(findTestObject('Object Repository/Checkout Objects/textarea_(optional)_order_comments'), 'Test12')
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Ship to a different address'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/button_Place order'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__shipping_first_name'), 'Robert')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/h1_Order received'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__shipping_last_name'), 'Hall')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/p_Thank you Your order has been received'))
 
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input_(optional)_shipping_company'), 'Company Inc.')
+WebUI.click(findTestObject('Object Repository/Checkout Objects/h2_Order details'))
 
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Philippines_1'))
-
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input_Terms and Conditions_select2-search__field'), 
-    'Philippines')
-
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__shipping_address_1'), '1232 Pablo Street')
-
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__shipping_city'), 'Cagayan de Oro City')
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/span_Misamis Oriental'))
-
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input_Terms and Conditions_select2-search__field'), 
-    'Misamis Oriental')
-
-WebUI.sendKeys(findTestObject('Object Repository/Single Product Checkout/input_Terms and Conditions_select2-search__field'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/input__shipping_postcode'), '77445')
-
-WebUI.setText(findTestObject('Object Repository/Single Product Checkout/textarea_(optional)_order_comments'), 'This is a test order')
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/label_Cash on delivery'))
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/input_privacy policy_terms'))
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/button_Place order'))
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/h1_Order received'))
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/li_Order number138'))
-
-WebUI.verifyTextPresent('', false)
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/h2_Order details'))
-
-WebUI.click(findTestObject('Object Repository/Single Product Checkout/p_Thank you Your order has been received'))
+WebUI.click(findTestObject('Object Repository/Checkout Objects/h2_Billing address'))
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Open Browser</name>
+   <name>Multiple Product Checkout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4e85ae5-2758-4a55-a8cf-601f9a8f9915</testCaseGuid>
+   <testCaseGuid>ab5fbc16-4591-452f-8d01-1947566ce5c5</testCaseGuid>
 </TestCaseEntity>

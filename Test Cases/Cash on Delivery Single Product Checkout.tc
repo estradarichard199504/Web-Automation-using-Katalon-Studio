@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Open Browser</name>
+   <name>Cash on Delivery Single Product Checkout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4e85ae5-2758-4a55-a8cf-601f9a8f9915</testCaseGuid>
+   <testCaseGuid>faa3ef62-3f16-41ac-8de9-d7c616686b8f</testCaseGuid>
 </TestCaseEntity>

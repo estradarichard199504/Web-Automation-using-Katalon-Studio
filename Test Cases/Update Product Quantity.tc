@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Open Browser</name>
+   <name>Update Product Quantity</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4e85ae5-2758-4a55-a8cf-601f9a8f9915</testCaseGuid>
+   <testCaseGuid>58c70a8a-750a-4587-825c-cb16ad375146</testCaseGuid>
 </TestCaseEntity>
